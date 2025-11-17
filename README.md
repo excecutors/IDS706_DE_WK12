@@ -13,15 +13,18 @@ The system shows how real‑time ingestion, persistence, and visualization work 
 ### 1. Producer Sending Credit Card Transactions
 ![Producer Screenshot](Screenshots/Producer.png)
 
-### 2. Kafka Consumer Inserting into PostgreSQL
+### 2. Kafka Consumer Writing to PostgreSQL
 ![Consumer Screenshot](Screenshots/Consumer.jpeg)
 
 ### 3. Real-Time Dashboard (Auto-refreshing)
 #### Dashboard – KPIs
-![Dashboard View 1](Screenshots/Dashboard 1.png)
+![Dashboard View 1](Screenshots/dashboard_1.png)
 
 #### Dashboard – Charts
-![Dashboard View 2](Screenshots/Dashboard 2.png)
+![Dashboard View 2](Screenshots/dashboard_2.png)
+
+#### Dashboard – Command Line Run
+![Dashboard Run](Screenshots/dashboard_py.png)
 
 # 1. System Architecture
 
