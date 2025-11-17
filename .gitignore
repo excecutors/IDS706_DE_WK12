@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+postgres_data/
+.env
+EOF
+
+# macOS
+.DS_Store
+
+# Office temp files
+~$*.docx
+~$*.doc
